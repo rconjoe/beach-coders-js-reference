@@ -26,7 +26,7 @@ myPenguin.sayHello = function() {
 myPenguin.sayHello();
 
 // 25. Without modifying any of your previous code, change the penguin's name to "chungus" and then call your penguin's sayHello() function one more time to make sure it still works.
-myPenguin.character = "Penguin McPenguinFace";
+myPenguin.character = "chungus";
 myPenguin.sayHello();
 
 // 26. Write another method called fly, and inside that method, use an if / else statement to print "I can fly!" to the console if your penguin's canFly property is true, or "No flying for me!" if its canFly property is false.
