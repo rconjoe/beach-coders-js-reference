@@ -34,16 +34,16 @@ colors.pop();
 console.log(colors.length)
 
 // 16. Write a for loop to iterate through every color in the array and print each color's value to the console.
-for (var i = 0; i < colors.length; i++) {
+for (let i = 0; i < colors.length; i++) {
   console.log(colors[i]);
 }
 
 // 17. Copying from that loop you just wrote, modify it to print every color's value and every color's index in this format: "3, purple" or "0, blue" etc.
-for (var i = 0; i < colors.length; i++) {
+for (let i = 0; i < colors.length; i++) {
   console.log(`${i}, ${colors[i]}`);
 }
 
 // 18. Create a variable named lastColor that will always point to the last element of the colors array, no matter how many colors are in the list. (Hint: make use of the array's length property for this!)
-var lastIndex = colors.length - 1
-var lastColor = colors[lastIndex]
+const lastIndex = colors.length - 1
+const lastColor = colors[lastIndex]
 console.log(lastColor)
