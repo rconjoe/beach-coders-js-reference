@@ -40,29 +40,43 @@ console.log(myPenguin.name)
 
 // 26. Write another method called fly, and inside that method, use an if / else statement to print "I can fly!" to the console if your penguin's canFly property is true, or "No flying for me!" if its canFly property is false.
 
-// let result 
-//     if (myPenguin.canFly = true) {
-//         result = "I can fly!"
-//     } else {
-//         result = "No flying for me!"
+// var canIFly = function(canFly) {
+//     if (canFly === true) {
+//         return "I can fly"
 //     }
-//     return result
-// myPenguin.fly = result
+//     else {
+//         return "No flying for me!"
+//     }
+// }
 
-// myPenguin.fly = result
-// console.log(myPenguin.fly)//not right logs nothing
+// myPenguin.fly = canIFly;
+// console.log(myPenguin.fly)
 
 
-function someFunction() {
+let canFly = false;
+let result;
     if (canFly === true) {
-        return "I can fly!"
+        result = "I can fly!"
     } else {
-        return "No flying for me!"
+        result = "No flying for me!"
     }
-}
-myPenguin.fly = someFunction;
+    return result
+myPenguin.fly = result
 
-console.log(myPenguin.fly) //not right (logging "[Function: someFunction]")
+myPenguin.fly = result
+console.log(myPenguin.fly)//not right logs nothing
+
+
+// function someFunction() {
+//     if (canFly === true) {
+//         return "I can fly!"
+//     } else {
+//         return "No flying for me!"
+//     }
+// }
+// myPenguin.fly = someFunction;
+
+// console.log(myPenguin.fly) //not right (logging "[Function: someFunction]")
 
 
 // 27. Call your penguin's fly() method and make sure it works.
