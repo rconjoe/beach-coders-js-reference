@@ -79,7 +79,7 @@ function solution(words) {
   )
 }
 
-solution(data) //this shows the array of words
+solution(data) // FINALLY GOT IT
 
 
 // //this array console logs the shortest string in the array
