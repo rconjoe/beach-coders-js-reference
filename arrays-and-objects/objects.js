@@ -95,4 +95,23 @@ myPenguin.canFly = true;
 myPenguin.fly();
 // 30. Write a for ... in loop to print each key to the console.
 
+// for(const key in myPenguin) {
+//     console.log(`${key}: ${myPenguin[key]}`); //this also works 
+
+// for(const key in myPenguin) {
+//     if(myPenguin.hasOwnProperty(key)) {
+//         console.log(`${key}: ${myPenguin[key]}`);
+//     }
+// }
+
+for(stuff in myPenguin) {
+    console.log(stuff)
+}
+
+
 // 31. Write another for ... in loop to print the value of each key to the console. (Hint: You'll need to use bracket notation to access the values this way, instead of dot notation.)
+
+for(stuff in myPenguin) {
+    console.log(myPenguin[stuff])
+}
+//when I log this the values of the keys that have a function do not show they just display "[Function (anonymous)]"
